@@ -1,4 +1,5 @@
 # Select retweets from the Twitter DataFrame: result
+import pandas as pd
 result = filter(lambda a:a[0:2]=="RT", tweets_df['text'])
 
 # Create list from filter object result: res_list
