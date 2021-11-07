@@ -1,3 +1,4 @@
+import pandas as pd 
 # Define count_entries()
 def count_entries(df, *args):
     """Return a dictionary with counts of
