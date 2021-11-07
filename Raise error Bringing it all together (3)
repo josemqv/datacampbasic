@@ -1,4 +1,5 @@
 # Define count_entries()
+import pandas as pd
 def count_entries(df, col_name='lang'):
     """Return a dictionary with counts of
     occurrences as value for each key."""
